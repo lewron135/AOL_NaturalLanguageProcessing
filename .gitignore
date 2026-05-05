@@ -1,0 +1,9 @@
+# Mengabaikan Virtual Environment
+venv/
+.DS_Store
+
+# Mengabaikan SEMUA file PDF di folder manapun
+**/*.pdf
+
+# Mengabaikan file CSV hasil olahan yang mungkin nanti dibuat
+backend/data/processed/
