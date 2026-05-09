@@ -1,9 +1,30 @@
-# Mengabaikan Virtual Environment
+# =========================
+# PYTHON & ENVIRONMENTS
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
 venv/
+env/
+.env
+
+# =========================
+# JUPYTER NOTEBOOK
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# PROJECT SPECIFIC (PENTING!)
+# =========================
+# Abaikan folder data agar file CSV 53MB dan PDF CV aslimu tidak ter-upload
+data/
+
+# Abaikan file model yang besar, tapi tetap simpan foldernya jika perlu
+models/*.pkl
+
+# =========================
+# OS & IDE
+# =========================
 .DS_Store
-
-# Mengabaikan SEMUA file PDF di folder manapun
-**/*.pdf
-
-# Mengabaikan file CSV hasil olahan yang mungkin nanti dibuat
-backend/data/processed/
+.vscode/
+.idea/
