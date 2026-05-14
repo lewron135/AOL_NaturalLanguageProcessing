@@ -19,8 +19,8 @@ env/
 # Abaikan folder data agar file CSV 53MB dan PDF CV aslimu tidak ter-upload
 data/
 
-# Abaikan file model yang besar, tapi tetap simpan foldernya jika perlu
-models/*.pkl
+# tfidf_model.pkl di-commit agar app bisa langsung jalan tanpa perlu run notebook dulu
+# models/*.pkl
 
 # =========================
 # OS & IDE
