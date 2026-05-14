@@ -129,3 +129,4 @@ weasel==1.0.0
 websockets==16.0
 wordcloud==1.9.6
 wrapt==2.1.2
+ftfy==6.3.1

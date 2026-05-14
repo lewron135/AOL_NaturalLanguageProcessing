@@ -14,13 +14,17 @@ env/
 .ipynb_checkpoints/
 
 # =========================
-# PROJECT SPECIFIC (PENTING!)
+# PROJECT SPECIFIC
 # =========================
-# Abaikan folder data agar file CSV 53MB dan PDF CV aslimu tidak ter-upload
-data/
+# Abaikan folder data mentah agar dataset 53MB tidak ter-upload
+data/raw/
 
-# tfidf_model.pkl di-commit agar app bisa langsung jalan tanpa perlu run notebook dulu
-# models/*.pkl
+# TAPI: Pastikan data yang sudah bersih (nyawa aplikasi) tetap ikut ter-upload
+# Kita gunakan tanda '!' untuk memberikan pengecualian
+!data/processed/cleaned_resumes.csv
+
+# Simpan model TF-IDF agar app bisa langsung jalan
+models/*.pkl
 
 # =========================
 # OS & IDE

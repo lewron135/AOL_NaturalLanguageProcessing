@@ -17,6 +17,8 @@ TECH_TERM_LOCK = [
     "Data Science", "TensorFlow", "PyTorch", "Scikit-learn", "Docker", "Kubernetes",
     "REST API", "Git", "Linux", "React", "Node.js", "FastAPI", "Flask", "Streamlit",
     "BERT", "Transformer", "RapidMiner", "Pandas", "NumPy", "Tableau", "Power BI",
+    "Django", "object-oriented design", "asynchronous programming", "Microservices", 
+    "CI/CD", "GitHub Actions", "English", "communication skills", "relational database"
 ]
 
 NER_OPTIONS = {
