@@ -116,5 +116,3 @@ All three are excluded from version control via `.gitignore` because of file siz
 ---
 
 ## Author
-
-Josep Natanael Pasaribu · BINUS University · COMP6885001 NLP · 2025/2026
